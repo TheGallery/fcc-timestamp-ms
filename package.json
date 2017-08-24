@@ -1,0 +1,16 @@
+{
+  "name": "timestamp-ms",
+  "version": "1.0.0",
+  "description": "FCC timestamp microservice challenge",
+  "main": "server.js",
+  "dependencies": {
+    "express": "4.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joseph Psychas <sirios2222@yahoo.gr>",
+  "license": "MIT"
+}

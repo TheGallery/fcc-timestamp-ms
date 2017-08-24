@@ -1,0 +1,18 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Timestamp Microservice</title>
+</head>
+<body>
+  <h1>Timestamp microservice</h1>
+
+  <h2>Endpoints:</h2>
+    <code>https://sleepy-wildwood-95438.herokuapp.com/[timestamp]</code><br />
+    where [timestamp] is a unix timestamp or a date string.
+  <h2>Example usage:</h2>
+    <code>https://sleepy-wildwood-95438.herokuapp.com/December%2015,%202015</code><br />
+    <code>https://sleepy-wildwood-95438.herokuapp.com/1450137600</code>
+  <h2>Example output:</h2>
+    <code>{ "unix": 1450137600, "natural": "December 15, 2015" }</code>
+</body>
+</html>
